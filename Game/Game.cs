@@ -215,7 +215,7 @@ public class Game
             WriteLine("If you would like to tag a bomb, press the letter 'B' else press any other letter key.");  
             char key = ReadKey().KeyChar;
             WriteLine();
-            if(key == 'B')
+            if(key == 'B' || key == 'b')
             {
                 int rowB = 0;
                 int columnB = 0;
